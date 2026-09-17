@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Cookie Morph Loader</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;650&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -23,6 +28,7 @@
   --line:#312C3D; --shape:#D0BCFF; --shape-soft:#4A4260; --focus:#D0BCFF;
 }
 *{box-sizing:border-box}
+body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.5}
 .wrap{max-width:880px;margin:0 auto;padding-inline:20px;padding-block:40px 56px;display:flex;flex-direction:column;gap:28px}
 header h1{font-size:28px;font-weight:650;letter-spacing:-.01em;margin:0 0 4px;text-wrap:balance}
@@ -72,6 +78,8 @@ h2{font-size:13px;font-weight:650;letter-spacing:.08em;text-transform:uppercase;
 @media (max-width:520px){.seq{grid-template-columns:repeat(3,1fr)}}
 </style>
 
+</head>
+<body>
 <div class="wrap">
   <header>
     <h1>Cookie Morph Loader</h1>
@@ -266,3 +274,5 @@ setSize(prefs.size ?? 300);
 setColor(prefs.color ?? null);
 renderRecent();
 </script>
+</body>
+</html>
