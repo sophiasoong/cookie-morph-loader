@@ -10,7 +10,7 @@ Sequence (loops): 12-sided cookie → 9-sided cookie → 7-sided cookie → 6-si
 
 | Path | What it is |
 | --- | --- |
-| `index.html` | Demo page: loader at 24/38/64px and a large size, playback (pause, 0.5×, 0.2×), shape size and color settings, recent colors |
+| `index.html` | Demo page: loader at 24/38/64px and a large size, playback (pause, 0.5×, 2×), shape size and color settings, recent colors |
 | `cookie-morph-loader.svg` | Standalone animated SVG (380×380, `#6750A4`). Plays anywhere SVG animation runs, no JavaScript needed |
 | `shapes/` | The six source shapes |
 | `scripts/generate_svg.py` | Rebuilds `cookie-morph-loader.svg` from `shapes/` |
